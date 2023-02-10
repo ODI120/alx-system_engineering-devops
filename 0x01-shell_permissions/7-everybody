@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ODI120+x hello
+chmod u+x hello
