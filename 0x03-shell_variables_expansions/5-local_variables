@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Local variables:" 
+set | grep "^[[:alpha:]_][[:alnum:]_]*="
+echo "Environment variables:"
+printenv
+echo "Functions:"
+typeset -f
